@@ -1,6 +1,6 @@
 function (
     containerPort=80, 
-    image="gcr.io/heptio-images/ks-guestbook-demo:0.1", 
+    image="image: gcr.io/google-samples/gb-frontend:v5", 
     name="jsonnet-guestbook-ui",
     replicas=3,
     servicePort=80, 
